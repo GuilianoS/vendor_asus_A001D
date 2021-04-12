@@ -204,7 +204,6 @@ PRODUCT_COPY_FILES += \
 	vendor/asus/A001D/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-qti \
 	vendor/asus/A001D/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
 	vendor/asus/A001D/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
-	vendor/asus/A001D/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
 	vendor/asus/A001D/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
 	vendor/asus/A001D/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
 	vendor/asus/A001D/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@2.2-service \
@@ -403,7 +402,6 @@ PRODUCT_COPY_FILES += \
 	vendor/asus/A001D/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
 	vendor/asus/A001D/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
 	vendor/asus/A001D/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
-	vendor/asus/A001D/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
 	vendor/asus/A001D/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
 	vendor/asus/A001D/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
 	vendor/asus/A001D/proprietary/vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@2.2-service.rc \
@@ -647,7 +645,6 @@ PRODUCT_COPY_FILES += \
 	vendor/asus/A001D/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
 	vendor/asus/A001D/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
 	vendor/asus/A001D/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
-	vendor/asus/A001D/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
 	vendor/asus/A001D/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
 	vendor/asus/A001D/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0.so \
 	vendor/asus/A001D/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
@@ -895,7 +892,6 @@ PRODUCT_COPY_FILES += \
 	vendor/asus/A001D/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
 	vendor/asus/A001D/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
 	vendor/asus/A001D/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
-	vendor/asus/A001D/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
 	vendor/asus/A001D/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
 	vendor/asus/A001D/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
 	vendor/asus/A001D/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
@@ -2335,25 +2331,24 @@ PRODUCT_COPY_FILES += \
 	vendor/asus/A001D/proprietary/vendor/lib/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama.so \
 	vendor/asus/A001D/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
 	vendor/asus/A001D/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_rohm_bu64243gwz.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_dw9761b.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_dw9761b.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_lc898122.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_ad5823.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_ak7371.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_pseudo.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_dw9716.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_dw9716.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_dw9714.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_bu64297.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_lc898212xd.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_fp5510a.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_fp5510a.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_ad5816g.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_dw9763.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_lc898212xd_qc2002.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_lc898212xd_qc2002.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_dw9714_imx486_kelon.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_dw9714_imx486_kelon.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_ak7345.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_bu64244gwz.so \
-	vendor/asus/A001D/proprietary/vendor/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_lc898217xc.so
-
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_dw9761b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9761b.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898122.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5823.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_dw9716.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9716.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_fp5510a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_fp5510a.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_lc898212xd_qc2002.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd_qc2002.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_dw9714_imx486_kelon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_imx486_kelon.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64244gwz.so \
+	vendor/asus/A001D/proprietary/vendor/lib/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc.so
 
 PRODUCT_PACKAGES += \
 	libaudio_log_utils \
