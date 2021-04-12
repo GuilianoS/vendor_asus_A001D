@@ -2334,23 +2334,25 @@ PRODUCT_COPY_FILES += \
 	vendor/asus/A001D/proprietary/vendor/lib/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama_lite.so \
 	vendor/asus/A001D/proprietary/vendor/lib/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama.so \
 	vendor/asus/A001D/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
-	vendor/asus/A001D/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0.so \
-	vendor/asus/A001D/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
-	vendor/asus/A001D/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
-	vendor/asus/A001D/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
-	vendor/asus/A001D/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
-	vendor/asus/A001D/proprietary/vendor/lib64/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-external-impl.so \
-	vendor/asus/A001D/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
-	vendor/asus/A001D/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
-	vendor/asus/A001D/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
-	vendor/asus/A001D/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
-	vendor/asus/A001D/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
-	vendor/asus/A001D/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
-	vendor/asus/A001D/proprietary/vendor/lib/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-external-impl.so \
-	vendor/asus/A001D/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
-	vendor/asus/A001D/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service.rc \
-	vendor/asus/A001D/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
-	vendor/asus/A001D/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so
+	vendor/asus/A001D/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_rohm_bu64243gwz.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_dw9761b.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_dw9761b.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_lc898122.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_ad5823.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_ak7371.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_pseudo.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_dw9716.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_dw9716.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_dw9714.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_bu64297.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_lc898212xd.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_fp5510a.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_fp5510a.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_ad5816g.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_dw9763.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_lc898212xd_qc2002.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_lc898212xd_qc2002.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_dw9714_imx486_kelon.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_dw9714_imx486_kelon.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_ak7345.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_bu64244gwz.so \
+	vendor/asus/A001D/proprietary/vendor/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/libactuator_lc898217xc.so
 
 
 PRODUCT_PACKAGES += \
