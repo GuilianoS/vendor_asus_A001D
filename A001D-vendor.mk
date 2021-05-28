@@ -2359,7 +2359,9 @@ vendor/asus/A001D/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-serv
 vendor/asus/A001D/proprietary/vendor/bin/KmInstallKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/KmInstallKeybox \
 vendor/asus/A001D/proprietary/vendor/bin/init.qti.qseecomd.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.qseecomd.sh \
 vendor/asus/A001D/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
-vendor/asus/A001D/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool
+vendor/asus/A001D/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
+vendor/asus/A001D/proprietary/vendor/bin/mount_apd.sh:$(TARGET_COPY_OUT_VENDOR)/bin/mount_apd.sh \
+vendor/asus/A001D/proprietary/vendor/bin/umount_apd.sh:$(TARGET_COPY_OUT_VENDOR)/bin/umount_apd.sh
 
 	PRODUCT_PACKAGES += \
 	libaudio_log_utils \
