@@ -2359,7 +2359,9 @@ PRODUCT_COPY_FILES += \
 	vendor/asus/A001D/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
 	vendor/asus/A001D/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service_asus.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service_asus.rc \
 	vendor/asus/A001D/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_asus:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_asus \
-	vendor/asus/A001D/proprietary/vendor/bin/hw/btlfpserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/btlfpserver
+	vendor/asus/A001D/proprietary/vendor/bin/hw/btlfpserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/btlfpserver \
+	vendor/asus/A001D/proprietary/vendor/lib/hw/thermal.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.msm8953.so \
+	vendor/asus/A001D/proprietary/vendor/lib64/hw/thermal.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.msm8953.so
 
 PRODUCT_PACKAGES += \
 	libaudio_log_utils \
